@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+.hero{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+}
+.image{
+	width: 100vw;
+    height: 322px;
+	object-fit:cover;
+}
+.text{
+	margin-left:30px;
+	text-align:center;
+}
+p{
+	margin-top:8px;
+}
+.btn{
+	padding:4px; 
+	background-color:#fe0100; 
+	color:white; 
+	border-radius:8px;
+	border:none;
+	margin-top:6px;
+}
